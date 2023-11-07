@@ -1,0 +1,10 @@
+class StudentDTO {
+    constructor(id, firstName, lastName, phoneNumber) {
+        this.id = id;
+        this.first_name = firstName;
+        this.last_name = lastName;
+        this.phone_number = phoneNumber;
+    }
+}
+
+module.exports = StudentDTO;
