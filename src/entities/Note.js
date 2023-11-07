@@ -1,14 +1,16 @@
+const { EntitySchema } = require("typeorm");
 
-module.exports = {
-  name: "Category",
-  columns: {
+module.exports = new EntitySchema({
+    name: "Note",
+    columns: {
       id: {
-          primary: true,
-          type: "int",
-          generated: true
+        primary: true,
+        type: "int",
+        generated: true,
       },
       description: {
-          type: "varchar"
-      }
-  }
-};
+        nullable: true,
+        type: "varchar",
+      },
+    },
+  })
