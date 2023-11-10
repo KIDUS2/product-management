@@ -12,6 +12,7 @@ module.exports = {
   },
   update: async (req, res) => {
     try {
+
       const id = req.query.id;
 
       const note = await db.manager.getRepository('Note').findOneBy({

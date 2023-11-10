@@ -2,7 +2,7 @@
   "name": "product-management",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "bson": "^5.5.1",
     "debug": "^4.3.4",

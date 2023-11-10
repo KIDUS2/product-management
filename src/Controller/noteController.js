@@ -1,6 +1,6 @@
 
 const pool = require("../Config/db")
-const StudentService = require('../Service/StudentService'); // Import the service module
+const StudentService = require('../Service/StudentService'); 
 const StudentDTO = require('../Dto/StudentDTO');
 
 //Create a note
